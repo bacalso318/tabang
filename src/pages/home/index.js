@@ -5,8 +5,12 @@ import Typography from '@mui/material/Typography'
 import CardHeader from '@mui/material/CardHeader'
 import CardContent from '@mui/material/CardContent'
 import Customizer from 'src/@core/components/customizer'
+import { useToaster } from 'react-hot-toast'
 
 const Home = () => {
+
+  const toast = useToaster()
+
   return (
     <Grid container spacing={6}>
       <Grid item xs={12}>
